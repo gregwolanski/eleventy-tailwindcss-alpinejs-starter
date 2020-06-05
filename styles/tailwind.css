@@ -1,0 +1,13 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+.change {
+  color: black;
+}
+
+/* purgecss start ignore */
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
