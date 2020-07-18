@@ -6,8 +6,10 @@ module.exports = {
     },
   },
   theme: {
-    colors: {
-      change: "black",
+    extend: {
+      colors: {
+        change: "black",
+      },
     },
   },
   variants: {},
