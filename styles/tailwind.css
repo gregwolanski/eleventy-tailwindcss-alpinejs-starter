@@ -1,8 +1,9 @@
 @tailwind base;
-
-.change {
-  color: black;
-}
-
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .change {
+    color: black;
+  }
+}
