@@ -1,6 +1,8 @@
-# eleventy-tailwindcss-alpinejs-starter
+# eleventy-tailwindcss-alpinejs-starter by [Greg Wolanski](https://gregwolanski.com)
 
 A starter repository showing how to build a website with the [Eleventy](https://www.11ty.dev), [Tailwind CSS](https://tailwindcss.com), and [Alpine.js](https://github.com/alpinejs/alpine).
+
+Learn more on CSS-Tricks: [An Eleventy Starter with Tailwind CSS and Alpine.js](https://css-tricks.com/eleventy-starter-with-tailwind-css-alpine-js/)
 
 ## Getting Started
 
