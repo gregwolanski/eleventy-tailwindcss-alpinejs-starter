@@ -1,14 +1,16 @@
 {
   "scripts": {
     "start": "eleventy --serve & postcss styles/tailwind.css --o _tmp/style.css --watch",
-    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production postcss styles/tailwind.css --o _site/style.css"
+    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production postcss styles/tailwind.css --o _site/style.css && cleancss _site/style.css -o _site/style.css"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "alpinejs": "^2.7.3",
+    "autoprefixer": "^10.0.2",
+    "clean-css-cli": "^4.3.0",
     "html-minifier": "^4.0.0",
-    "postcss-clean": "^1.1.0",
-    "postcss-cli": "^7.1.2",
-    "tailwindcss": "^1.9.6"
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^2.0.1"
   }
 }
