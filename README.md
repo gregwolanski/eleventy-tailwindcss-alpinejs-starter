@@ -6,7 +6,7 @@ Learn more on CSS-Tricks: [An Eleventy Starter with Tailwind CSS and Alpine.js](
 
 ## Getting Started
 
-### 1. Clone this Repository
+### 1. Clone this repository
 
 ```
 git clone https://github.com/gregwolanski/eleventy-tailwindcss-alpinejs-starter.git my-website-name
@@ -18,13 +18,19 @@ git clone https://github.com/gregwolanski/eleventy-tailwindcss-alpinejs-starter.
 cd my-website-name
 ```
 
-### 3. Install dependencies
+### 3. Install the dependencies
 
 ```
 npm install
 ```
 
-### 4. Build the project to generate the first CSS
+### 4. Update the dependencies
+
+```
+npm update
+```
+
+### 5. Build the project to generate the first CSS
 
 This step is only required the very first time.
 
@@ -32,7 +38,7 @@ This step is only required the very first time.
 npm run build
 ```
 
-### 5. Run Eleventy
+### 6. Run Eleventy
 
 ```
 npm run start
