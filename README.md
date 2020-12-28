@@ -48,6 +48,10 @@ npm run start
 
 [Greg Wolanski](https://gregwolanski.com)
 
+## Troubleshooting
+
+[Windows](https://github.com/gregwolanski/eleventy-tailwindcss-alpinejs-starter/issues/3)
+
 ## License
 
 MIT
