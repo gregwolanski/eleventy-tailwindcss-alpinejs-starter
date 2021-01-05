@@ -2,7 +2,7 @@ module.exports = {
   purge: {
     content: ["_site/**/*.html"],
     options: {
-      whitelist: [],
+      safelist: [],
     },
   },
   theme: {
