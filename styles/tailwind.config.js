@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    content: ["_site/**/*.html"],
+    content: ['_site/**/*.html'],
     options: {
       safelist: [],
     },
@@ -8,10 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        change: "black",
+        change: 'black',
       },
     },
   },
   variants: {},
   plugins: [],
-};
+}
