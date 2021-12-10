@@ -1,11 +1,6 @@
 module.exports = {
-  mode: 'jit',
-  purge: {
-    content: ['_site/**/*.html'],
-    options: {
-      safelist: [],
-    },
-  },
+  content: ['_site/**/*.html'],
+  safelist: [],
   theme: {
     extend: {
       colors: {
@@ -13,6 +8,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [],
 }
