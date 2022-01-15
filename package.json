@@ -4,7 +4,7 @@
     "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --minify"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0",
     "alpinejs": "^3.7.0",
     "html-minifier": "^4.0.0",
     "tailwindcss": "^3.0.0"
